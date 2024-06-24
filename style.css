@@ -13,6 +13,33 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+.image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio li {
+    width: 30%;
+    padding: 20px;
+}
+
+.portfolio-image {
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    transition: 4s;
+}
+
+.portfolio-image:hover {
+    background-position: bottom;
+}
+
 /*** NavBar (Light) ***/
 .nav-link {
     color: black;
